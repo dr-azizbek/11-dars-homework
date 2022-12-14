@@ -18,7 +18,7 @@ oneDay.setFullYear(c1, a1, b1);
 
 let secondDay = new Date();
 let a2 = secondDay.getMonth()
-let b2 = secondDay.getDay()
+let b2 = secondDay.getDate()
 let c2 = secondDay.getFullYear()
 
 let secondDays = new Date(c2, a2, b2);
