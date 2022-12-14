@@ -32,3 +32,4 @@ function dateFunc() {
     const second = now.getSeconds() < 10 ? `0` + now.getSeconds() : now.getSeconds()
     result4.innerHTML = `Vaqt:    ${hour}:${minutes}:${second}`
 }
+
